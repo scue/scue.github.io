@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ubuntu 14.04.1 Install Jekyll"
+title: "Ubuntu Install Jekyll"
 description: ""
 category: 技术
 tags: [Ubuntu,Jekyll]

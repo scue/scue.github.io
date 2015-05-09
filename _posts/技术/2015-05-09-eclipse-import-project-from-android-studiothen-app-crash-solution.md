@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "〖Android〗从Android Studio转为Eclipse开发项目运行程序闪退的解决方法"
+title: "Android Studio迁移闪退"
 description: ""
 category: 技术
 tags: [Android]
