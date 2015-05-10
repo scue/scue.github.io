@@ -69,7 +69,7 @@ task :post do
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
     post.puts "---"
-    post.puts "{% include JB/comments %}"
+    # post.puts "{% include JB/comments %}"
   end
 end # task :post
 
