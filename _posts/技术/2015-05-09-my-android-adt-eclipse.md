@@ -45,7 +45,6 @@ tags: [Android, Eclipse]
 
     3.4.   边框过大的调整方法
 
-        ```
         cd /path/to/adt
         vi "$(find eclipse -name e4_default_gtk.css)"
         # 打开： plugins/org.eclipse.platform_4.2.*/css/e4_default_gtk.css，找到并修改：
@@ -64,7 +63,6 @@ tags: [Android, Eclipse]
             swt-simple: false;
             swt-mru-visible: false;
         }
-        ```
 
     3.5.   Logcat 字体大小： Android → Logcat位置
 
