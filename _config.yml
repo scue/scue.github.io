@@ -42,6 +42,10 @@ locals:
   newest: 最新文章
   archive: 归档
 
+markdown: redcarpet
+redcarpet:
+      extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
