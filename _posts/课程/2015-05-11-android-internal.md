@@ -28,7 +28,7 @@ Linux Kernel Map这一张图主要是针对开发人员提供的，有兴趣的�
 - `ashmem`:                             匿名共享内存驱动
 - `pmem`:                               process memory allocator
 - `logger`:                             打印日志驱动
-- `wake locks`:                         阻止手机进入低功耗状态，使之可执行更多操作，内核空间和用户空间都可以控制它
+- `wake locks`:                         一但有用户层、或Kernel拿到此锁就阻止手机进入低功耗状态
 - `early suspend`:                      Linux电源管理的扩展，LCD、重力感应、传感器依赖于它才能在睡眠时工作；
 - `oom handling`:                       android out of memory killer, 内存管理（以前Android手机内存很小，这个很有必要）
 - `android alarm`:                      闹钟服务，允许用户空间控制闹钟
