@@ -51,7 +51,7 @@ Linux Kernel Map这一张图主要是针对开发人员提供的，有兴趣的�
 
 在我们遇到一些问题不容易排解的时候，看此图，上下左右关系看一看，就能找到答案了
 
-![Android-Internal](assets/Courses/Courses03_android_internal_03.Android_internals.png)
+![Android-Internal](/assets/Courses/Courses03_android_internal_03.Android_internals.png)
 
 [源链接](http://www.makelinux.net/android/internals/Android_internals_1024.png)
 
