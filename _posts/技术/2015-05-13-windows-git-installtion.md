@@ -25,7 +25,7 @@ tags: [Windows]
 
 2.  配置Windows的`~/.bashrc`和`~/.bash_aliases.git`以加快Windows上的Git操作
 
-    2.1 配置`~/.bashrc`
+    2.1 配置`%HOMEPATH\.bashrc`
 
         function _gmto()
         {
@@ -57,7 +57,7 @@ tags: [Windows]
 
         test -e ~/.bash_aliases.git && . ~/.bash_aliases.git
 
-    2.2 配置`~/.bash_aliases.git`
+    2.2 配置`%HOMEPATH%\.bash_aliases.git`
 
         # Aliases
         alias g='git'
@@ -67,7 +67,6 @@ tags: [Windows]
         alias gl='git pull'
         alias gup='git pull --rebase'
         alias gp='git push'
-        alias gd='git diff'
         alias gc='git commit -v'
         alias gc!='git commit -v --amend'
         alias gca='git commit -v -a'
@@ -153,5 +152,56 @@ tags: [Windows]
         alias gunignore='git update-index --no-assume-unchanged'
         # list temporarily ignored files
         alias gignored='git ls-files -v | grep "^[[:lower:]]"'
+        
+        # Git Aliases AutoComplete
+        type __git_complete >/dev/null 2>&1 && {
+            __git_complete   g        _git
+            __git_complete   gd       _git_diff
+            __git_complete   gdc      _git_diff
+            __git_complete   gl       _git_pull
+            __git_complete   gup      _git_pull
+            __git_complete   gp       _git_push
+            __git_complete   gc       _git_commit
+            __git_complete   gc!      _git_commit
+            __git_complete   gca      _git_commit
+            __git_complete   gca!     _git_commit
+            __git_complete   gcmsg    _git_commit
+            __git_complete   gco      _git_checkout
+            __git_complete   gcm      _git_checkout
+            __git_complete   gr       _git_remote
+            __git_complete   grv      _git_remote
+            __git_complete   grmv     _git_remote
+            __git_complete   grrm     _git_remote
+            __git_complete   grset    _git_remote
+            __git_complete   grup     _git_remote
+            __git_complete   grbi     _git_rebase
+            __git_complete   grbc     _git_rebase
+            __git_complete   grba     _git_rebase
+            __git_complete   gb       _git_branch
+            __git_complete   gba      _git_branch
+            __git_complete   gcount   _git_shortlog
+            __git_complete   gcl      _git_config
+            __git_complete   gcp      _git_cherry_pick
+            __git_complete   glg      _git_log
+            __git_complete   glgg     _git_log
+            __git_complete   glgga    _git_log
+            __git_complete   glo      _git_log
+            __git_complete   glog     _git_log
+            __git_complete   gss      _git_log
+            __git_complete   ga       _git_add
+            __git_complete   gm       _git_merge
+            __git_complete   grh      _git_reset
+            __git_complete   grhh     _git_reset
+            __git_complete   gwc      _git_whatchanged
+            __git_complete   gmt      _git_mergetool
+            __git_complete   gk       _gitk
+            __git_complete   gsts     _git_stash
+            __git_complete   gsta     _git_stash
+            __git_complete   gstp     _git_stash
+            __git_complete   gstd     _git_stash
+            __git_complete   gsr      _git_svn
+            __git_complete   gsd      _git_svn
+        }
+
 
 配置好之后，使用Git就变得很爽快
