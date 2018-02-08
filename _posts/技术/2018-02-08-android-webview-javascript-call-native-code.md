@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android计算字符串的MD5值"
+title: "Web JavaScript调用Android原生应用代码"
 description: ""
 category: 技术
 tags: [Android, md5sum]
