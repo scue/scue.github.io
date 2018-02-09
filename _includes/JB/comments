@@ -1,9 +1,5 @@
 {% case site.JB.comments.provider %}
 
-{% when "duoshuo" %}
-  {% include JB/comments-providers/duoshuo.html %}
 {% when "disqus" %}
   {% include JB/comments-providers/disqus.html %}
-{% else %}
-  {% include JB/comments-providers/duoshuo.html %}
 {% endcase %}
