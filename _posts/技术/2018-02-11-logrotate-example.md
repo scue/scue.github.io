@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "标题"
-description: "描述"
+title: "使用lorotate压缩服务器日志"
+description: "logrotate"
 category: 技术
-tags: [标签]
+tags: [linux]
 ---
 
 马上春节了，发现服务器的日志一天天地变大，这样子下去的话容易出现硬盘告警，于是想到了使用一些方式去定期清空和压缩一下旧的日志，网络查找一段时间后，发现`logrotate`是不错的选择。
