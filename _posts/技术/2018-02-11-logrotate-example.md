@@ -33,7 +33,7 @@ logrotate -d -f /etc/logrotate.d/myconf
 
 
 参考资料：
-https://huoding.com/2013/04/21/246
-https://www.thegeekstuff.com/2010/07/logrotate-examples/
+1. https://huoding.com/2013/04/21/246
+2. https://www.thegeekstuff.com/2010/07/logrotate-examples/
 
 
