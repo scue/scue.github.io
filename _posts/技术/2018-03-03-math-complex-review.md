@@ -1,12 +1,9 @@
-
-
-
 ---
 layout: post
-title: "GO进阶：数学中的复数和最美的欧拉公式"
+title: "数学中的复数和最美的欧拉公式"
 description: ""
 category: 技术
-tags: [GO, Math]
+tags: [Math]
 ---
 
 # 虚数i的由来
