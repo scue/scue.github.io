@@ -116,3 +116,6 @@ Got value: 10
 Check same: true
 ```
 
+
+链接：https://tour.go-zh.org/concurrency/8
+

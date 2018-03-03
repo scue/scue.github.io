@@ -182,3 +182,6 @@ go func() {
 
 原因是起来之后都共用了同一个外层的`u`变量，而这个`u`变量是受到`for`循环的影响的，导致输出结果的减少。
 
+链接：https://tour.go-zh.org/concurrency/10
+
+
